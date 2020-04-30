@@ -1,0 +1,51 @@
+#head
+{
+	text-align:center;
+	font-weight:bold;
+	font-size:30px;
+}
+
+.box
+{
+	width : 27%;
+	background-color: grey;
+	border : 2px solid black;
+	display : inline-block;
+	padding-left : 10px;
+	margin : 50px 40px 50px 20px;
+}
+
+#title
+{
+	border : 1px solid black;
+	font-weight : bold;
+	float : right;
+	width : 100px;
+	height: 25px;
+	text-align: center;
+	margin-right : 0px;
+}
+
+@media screen and (min-width: 992px)
+{
+  body 
+  {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px)
+{
+	#box3
+	{
+		width : 90%;
+	}
+}
+
+@media screen and (max-width: 767px)
+{
+	.box
+	{
+		display : block;
+	}
+}
